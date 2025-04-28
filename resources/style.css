@@ -4,26 +4,102 @@
     padding: 0;
 }
 
+.flex-container {
+    display: flex;
+}
+
 body {
     font-family: Verdana, sans-serif;
     background: black;
 }
+
+.title {
+    font-weight: normal;
+}
+
+/* HEADER */
 
 header {
     text-align: center;
 }
 
 header h1, a {
-    margin: 30px 0;
+    padding: 30px;
 }
 
 header h1 {
     color: white;
     font-size: 3rem;
-    font-weight: normal;
 }
 
-header a {
+.coming-link {
     color: aquamarine;
     font-size: 1rem;
+}
+
+/* EXCURSION VIDEO */
+
+#video {
+}
+
+#excursion-video {
+    align-items: center;
+    justify-content: center;
+}
+
+/* PERSONAL GUIDE */
+
+#personal-guide {
+    color: white;
+    text-align: center;
+}
+
+#personal-guide h2 {
+    font-size: 3rem;
+    padding: 30px;
+}
+
+#personal-guide h3 {
+    font-size: 1rem;
+    color: gray;
+    padding: 0 30px 30px 30px;
+}
+
+#camp-picture {
+    width: 80%;
+    height: auto;
+}
+
+/* COMING SOON */
+#coming-soon {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#coming-soon > * {
+    margin: 0 20px;
+}
+
+
+#coming-soon img {
+    width: 50px;
+    height: auto;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+}
+
+#copyright {
+    color: gray;
+    text-align: right;
+    margin: 0 20px 10px 20px;
 }
