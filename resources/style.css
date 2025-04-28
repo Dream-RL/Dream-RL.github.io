@@ -44,6 +44,10 @@ header h1 {
     justify-content: center;
 }
 
+#video {
+    margin: 20px 0 0 0;
+}
+
 /* PERSONAL GUIDE */
 
 #personal-guide {
